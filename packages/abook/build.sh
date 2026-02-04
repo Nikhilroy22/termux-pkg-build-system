@@ -6,7 +6,7 @@ TERMUX_PKG_VERSION="0.6.2"
 TERMUX_PKG_SRCURL=git+https://git.code.sf.net/p/abook/git
 TERMUX_PKG_GIT_BRANCH=ver_${TERMUX_PKG_VERSION//./_}
 TERMUX_PKG_AUTO_UPDATE=true
-TERMUX_PKG_DEPENDS="libandroid-support, ncurses, readline"
+
 TERMUX_PKG_EXTRA_CONFIGURE_ARGS="--mandir=$TERMUX_PREFIX/share/man"
 
 termux_step_pre_configure() {

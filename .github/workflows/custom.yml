@@ -20,7 +20,7 @@ jobs:
             -w /termux-pkg-build-system \
             -e TERMUX_ARCH=arm \
             ghcr.io/nikhilroy22/myapp:latest \
-            ./build-package.sh aaa
+            ./build-package.sh abook
 
       - name: Rename .deb files with invalid characters
         run: |
